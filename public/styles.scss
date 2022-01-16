@@ -1,0 +1,46 @@
+@forward '../src/sass/fonts';
+@forward '../src/sass/variables';
+@forward '../src/sass/utilities';
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 4.4rem;
+}
+
+h2 {
+  font-size: 3.6rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+#root {
+  max-width: 100%;
+  min-height: 100%;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
