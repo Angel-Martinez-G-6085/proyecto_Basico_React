@@ -1,5 +1,3 @@
-@forward '../src/sass/fonts';
-@forward '../src/sass/variables';
 @forward '../src/sass/utilities';
 
 html {
@@ -15,7 +13,13 @@ html {
 
 body {
   font-size: 1.6rem;
-  line-height: 1.5;
+  line-height: 2;
+  font-family: var(--text);
+}
+
+h1,h2,h3 {
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
@@ -35,9 +39,9 @@ img {
   max-width: 100%;
 }
 
-#root {
-  max-width: 100%;
-  min-height: 100%;
+.main-container {
+  max-width: 100vw;
+  min-height: 100vh;
 }
 
 .container {
